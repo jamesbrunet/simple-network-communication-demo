@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import CounterButton from './components/CounterButton.jsx'
+import TaskList from './components/TaskList.jsx'
+
 import './App.css'
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+        <TaskList />
         <div className="card">
 
             <CounterButton />
